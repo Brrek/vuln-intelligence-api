@@ -218,3 +218,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local vulnerability inventory and generated runtime output
+/data/
+/reports/
+/generated/
+asset-context.json
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+.env.*
+!.env.example
+.venv*/

@@ -1,0 +1,170 @@
+[
+  {
+    "source": "synthetic",
+    "asset": {
+      "id": "payments-prod",
+      "hostname": "payments.example.test",
+      "criticality": 5,
+      "environment": "production",
+      "context_source": "synthetic-inventory"
+    },
+    "vulnerability": {
+      "id": "CVE-2021-44228",
+      "cve": "CVE-2021-44228",
+      "title": "Synthetic Log4j exposure",
+      "remediation": "Upgrade the affected Log4j dependency to a vendor-supported fixed version; verify the deployed artifact."
+    },
+    "cvss": 10.0,
+    "first_seen": "2025-09-01",
+    "last_seen": "2026-01-15",
+    "port": 443,
+    "protocol": "tcp"
+  },
+  {
+    "source": "synthetic",
+    "asset": {
+      "id": "portal-prod",
+      "hostname": "portal.example.test",
+      "criticality": 4,
+      "environment": "production",
+      "context_source": "synthetic-inventory"
+    },
+    "vulnerability": {
+      "id": "CVE-2023-34362",
+      "cve": "CVE-2023-34362",
+      "title": "Synthetic file transfer exposure",
+      "remediation": "Apply vendor security updates, review indicators of compromise, and verify the affected service."
+    },
+    "cvss": 9.8,
+    "first_seen": "2025-11-01",
+    "last_seen": "2026-01-15",
+    "port": 443,
+    "protocol": "tcp"
+  },
+  {
+    "source": "synthetic",
+    "asset": {
+      "id": "build-staging",
+      "hostname": "build.example.test",
+      "criticality": 3,
+      "environment": "staging",
+      "context_source": "synthetic-inventory"
+    },
+    "vulnerability": {
+      "id": "CVE-2021-44228",
+      "cve": "CVE-2021-44228",
+      "title": "Synthetic Log4j exposure",
+      "remediation": "Upgrade the affected Log4j dependency to a vendor-supported fixed version; verify the deployed artifact."
+    },
+    "cvss": 10.0,
+    "first_seen": "2026-01-01",
+    "last_seen": "2026-01-15",
+    "port": 8080,
+    "protocol": "tcp"
+  },
+  {
+    "source": "synthetic",
+    "asset": {
+      "id": "payments-prod",
+      "hostname": "payments.example.test",
+      "criticality": 5,
+      "environment": "production",
+      "context_source": "synthetic-inventory"
+    },
+    "vulnerability": {
+      "id": "CVE-2022-0778",
+      "cve": "CVE-2022-0778",
+      "title": "Synthetic TLS parser exposure",
+      "remediation": "Update the affected TLS library and rebuild dependent services."
+    },
+    "cvss": 7.5,
+    "first_seen": "2025-12-01",
+    "last_seen": "2026-01-15",
+    "port": 8443,
+    "protocol": "tcp"
+  },
+  {
+    "source": "synthetic",
+    "asset": {
+      "id": "lab-dev",
+      "hostname": "lab.example.test",
+      "criticality": 1,
+      "environment": "development",
+      "context_source": "synthetic-inventory"
+    },
+    "vulnerability": {
+      "id": "CVE-2022-0778",
+      "cve": "CVE-2022-0778",
+      "title": "Synthetic TLS parser exposure",
+      "remediation": "Update the affected TLS library and rebuild dependent services."
+    },
+    "cvss": 7.5,
+    "first_seen": "2026-01-10",
+    "last_seen": "2026-01-15",
+    "port": 443,
+    "protocol": "tcp"
+  },
+  {
+    "source": "synthetic",
+    "asset": {
+      "id": "build-staging",
+      "hostname": "build.example.test",
+      "criticality": 3,
+      "environment": "staging",
+      "context_source": "synthetic-inventory"
+    },
+    "vulnerability": {
+      "id": "demo-plugin-100",
+      "cve": null,
+      "title": "Synthetic missing security header",
+      "remediation": "Configure the missing response header and verify application behavior."
+    },
+    "cvss": 4.3,
+    "first_seen": "2025-12-15",
+    "last_seen": "2026-01-15",
+    "port": 80,
+    "protocol": "tcp"
+  },
+  {
+    "source": "synthetic",
+    "asset": {
+      "id": "lab-dev",
+      "hostname": "lab.example.test",
+      "criticality": 1,
+      "environment": "development",
+      "context_source": "synthetic-inventory"
+    },
+    "vulnerability": {
+      "id": "demo-plugin-200",
+      "cve": null,
+      "title": "Synthetic unscored inventory finding",
+      "remediation": "Manually verify the finding and obtain a severity assessment."
+    },
+    "cvss": null,
+    "first_seen": "2026-01-12",
+    "last_seen": "2026-01-15",
+    "port": 0,
+    "protocol": "tcp"
+  },
+  {
+    "source": "synthetic",
+    "asset": {
+      "id": "payments-prod",
+      "hostname": "payments.example.test",
+      "criticality": 5,
+      "environment": "production",
+      "context_source": "synthetic-inventory"
+    },
+    "vulnerability": {
+      "id": "CVE-2021-44228",
+      "cve": "CVE-2021-44228",
+      "title": "Synthetic Log4j exposure",
+      "remediation": "Upgrade the affected Log4j dependency to a vendor-supported fixed version; verify the deployed artifact."
+    },
+    "cvss": 10.0,
+    "first_seen": "2025-09-01",
+    "last_seen": "2026-01-15",
+    "port": 443,
+    "protocol": "tcp"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "date": "2026-01-15",
+  "notice": "Illustrative synthetic memberships and probabilities; not current threat intelligence.",
+  "records": {
+    "CVE-2021-44228": {
+      "kev": true,
+      "epss": 0.97
+    },
+    "CVE-2023-34362": {
+      "kev": true,
+      "epss": 0.94
+    },
+    "CVE-2022-0778": {
+      "kev": false,
+      "epss": 0.12
+    }
+  }
+}

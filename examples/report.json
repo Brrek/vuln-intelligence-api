@@ -1,0 +1,644 @@
+{
+  "as_of": "2026-01-15",
+  "asset_exposure": [
+    {
+      "asset_id": "payments-prod",
+      "finding_count": 2,
+      "highest_priority": 99.55,
+      "total_priority": 151.35
+    },
+    {
+      "asset_id": "build-staging",
+      "finding_count": 2,
+      "highest_priority": 84.33,
+      "total_priority": 112.95
+    },
+    {
+      "asset_id": "portal-prod",
+      "finding_count": 1,
+      "highest_priority": 94.67,
+      "total_priority": 94.67
+    },
+    {
+      "asset_id": "lab-dev",
+      "finding_count": 2,
+      "highest_priority": 29.58,
+      "total_priority": 34.75
+    }
+  ],
+  "freshness": [
+    {
+      "epss_date": "2026-01-15",
+      "epss_source": "synthetic",
+      "finding_id": "419a7ecf-615a-5a93-8a33-2160448a6cf8",
+      "kev_date": "2026-01-15",
+      "kev_source": "synthetic",
+      "last_seen": "2026-01-15",
+      "observation_age_days": 0,
+      "retrieved_on": "2026-01-15",
+      "warnings": []
+    },
+    {
+      "epss_date": "2026-01-15",
+      "epss_source": "synthetic",
+      "finding_id": "6599aec0-ae0c-59cd-94bf-6519510089aa",
+      "kev_date": "2026-01-15",
+      "kev_source": "synthetic",
+      "last_seen": "2026-01-15",
+      "observation_age_days": 0,
+      "retrieved_on": "2026-01-15",
+      "warnings": []
+    },
+    {
+      "epss_date": "2026-01-15",
+      "epss_source": "synthetic",
+      "finding_id": "5457f4da-f2f0-53c4-a308-ab302c72398e",
+      "kev_date": "2026-01-15",
+      "kev_source": "synthetic",
+      "last_seen": "2026-01-15",
+      "observation_age_days": 0,
+      "retrieved_on": "2026-01-15",
+      "warnings": []
+    },
+    {
+      "epss_date": "2026-01-15",
+      "epss_source": "synthetic",
+      "finding_id": "8cae77b0-3272-5349-92da-9d8e4c7b68cb",
+      "kev_date": "2026-01-15",
+      "kev_source": "synthetic",
+      "last_seen": "2026-01-15",
+      "observation_age_days": 0,
+      "retrieved_on": "2026-01-15",
+      "warnings": []
+    },
+    {
+      "epss_date": "2026-01-15",
+      "epss_source": "synthetic",
+      "finding_id": "27867efd-e7aa-55d1-ba3a-797d61ce07ca",
+      "kev_date": "2026-01-15",
+      "kev_source": "synthetic",
+      "last_seen": "2026-01-15",
+      "observation_age_days": 0,
+      "retrieved_on": "2026-01-15",
+      "warnings": []
+    },
+    {
+      "epss_date": null,
+      "epss_source": "synthetic",
+      "finding_id": "50ed5fef-4c14-5268-aef5-51a72701139d",
+      "kev_date": null,
+      "kev_source": "synthetic",
+      "last_seen": "2026-01-15",
+      "observation_age_days": 0,
+      "retrieved_on": "2026-01-15",
+      "warnings": [
+        "No synthetic intelligence for this vulnerability."
+      ]
+    },
+    {
+      "epss_date": null,
+      "epss_source": "synthetic",
+      "finding_id": "0d3084be-f36e-57fd-9ba9-587fd55fd93e",
+      "kev_date": null,
+      "kev_source": "synthetic",
+      "last_seen": "2026-01-15",
+      "observation_age_days": 0,
+      "retrieved_on": "2026-01-15",
+      "warnings": [
+        "No synthetic intelligence for this vulnerability."
+      ]
+    }
+  ],
+  "incomplete_enrichment": [
+    "50ed5fef-4c14-5268-aef5-51a72701139d",
+    "0d3084be-f36e-57fd-9ba9-587fd55fd93e"
+  ],
+  "ingestion": {
+    "errors": [],
+    "failed_runs": 0,
+    "rejected_records": 0,
+    "runs": 1
+  },
+  "kev_matches": [
+    "419a7ecf-615a-5a93-8a33-2160448a6cf8",
+    "6599aec0-ae0c-59cd-94bf-6519510089aa",
+    "5457f4da-f2f0-53c4-a308-ab302c72398e"
+  ],
+  "model_notice": "Demonstration prioritization only; not a validated enterprise risk standard.",
+  "recommendations": [
+    {
+      "action": "Upgrade the affected Log4j dependency to a vendor-supported fixed version; verify the deployed artifact.",
+      "finding_id": "419a7ecf-615a-5a93-8a33-2160448a6cf8"
+    },
+    {
+      "action": "Apply vendor security updates, review indicators of compromise, and verify the affected service.",
+      "finding_id": "6599aec0-ae0c-59cd-94bf-6519510089aa"
+    },
+    {
+      "action": "Upgrade the affected Log4j dependency to a vendor-supported fixed version; verify the deployed artifact.",
+      "finding_id": "5457f4da-f2f0-53c4-a308-ab302c72398e"
+    },
+    {
+      "action": "Update the affected TLS library and rebuild dependent services.",
+      "finding_id": "8cae77b0-3272-5349-92da-9d8e4c7b68cb"
+    },
+    {
+      "action": "Update the affected TLS library and rebuild dependent services.",
+      "finding_id": "27867efd-e7aa-55d1-ba3a-797d61ce07ca"
+    },
+    {
+      "action": "Configure the missing response header and verify application behavior.",
+      "finding_id": "50ed5fef-4c14-5268-aef5-51a72701139d"
+    },
+    {
+      "action": "Manually verify the finding and obtain a severity assessment.",
+      "finding_id": "0d3084be-f36e-57fd-9ba9-587fd55fd93e"
+    }
+  ],
+  "summary": {
+    "assets": 4,
+    "by_severity": {
+      "critical": 3,
+      "high": 2,
+      "info": 0,
+      "low": 0,
+      "medium": 1,
+      "unknown": 1
+    },
+    "findings": 7,
+    "incomplete_enrichment": 2,
+    "kev_matches": 3,
+    "vulnerabilities": 5
+  },
+  "urgent_findings": [
+    {
+      "id": "419a7ecf-615a-5a93-8a33-2160448a6cf8",
+      "intelligence": {
+        "epss": 0.97,
+        "epss_date": "2026-01-15",
+        "epss_source": "synthetic",
+        "kev": true,
+        "kev_date": "2026-01-15",
+        "kev_source": "synthetic",
+        "retrieved_on": "2026-01-15",
+        "warnings": []
+      },
+      "observation": {
+        "asset": {
+          "context_source": "synthetic-inventory",
+          "criticality": 5,
+          "environment": "production",
+          "hostname": "payments.example.test",
+          "id": "payments-prod"
+        },
+        "cvss": 10.0,
+        "first_seen": "2025-09-01",
+        "last_seen": "2026-01-15",
+        "port": 443,
+        "protocol": "tcp",
+        "source": "synthetic",
+        "vulnerability": {
+          "cve": "CVE-2021-44228",
+          "id": "CVE-2021-44228",
+          "remediation": "Upgrade the affected Log4j dependency to a vendor-supported fixed version; verify the deployed artifact.",
+          "title": "Synthetic Log4j exposure"
+        }
+      },
+      "priority": {
+        "assessed_on": "2026-01-15",
+        "contributions": {
+          "age": 5.0,
+          "criticality": 15.0,
+          "cvss": 30.0,
+          "environment": 10.0,
+          "epss": 14.55,
+          "kev": 25.0
+        },
+        "explanation": [
+          "cvss: 30.0000 points",
+          "kev: 25.0000 points",
+          "epss: 14.5500 points",
+          "criticality: 15.0000 points",
+          "environment: 10.0000 points",
+          "age: 5.0000 points",
+          "Finding age: 136 days; age contribution saturates at 90 days.",
+          "Asset context: criticality 5/5; production; source synthetic-inventory."
+        ],
+        "model": "demo-weighted-v1",
+        "score": 99.55,
+        "weights": {
+          "age": 5.0,
+          "criticality": 15.0,
+          "cvss": 30.0,
+          "environment": 10.0,
+          "epss": 15.0,
+          "kev": 25.0
+        }
+      },
+      "severity": "critical"
+    },
+    {
+      "id": "6599aec0-ae0c-59cd-94bf-6519510089aa",
+      "intelligence": {
+        "epss": 0.94,
+        "epss_date": "2026-01-15",
+        "epss_source": "synthetic",
+        "kev": true,
+        "kev_date": "2026-01-15",
+        "kev_source": "synthetic",
+        "retrieved_on": "2026-01-15",
+        "warnings": []
+      },
+      "observation": {
+        "asset": {
+          "context_source": "synthetic-inventory",
+          "criticality": 4,
+          "environment": "production",
+          "hostname": "portal.example.test",
+          "id": "portal-prod"
+        },
+        "cvss": 9.8,
+        "first_seen": "2025-11-01",
+        "last_seen": "2026-01-15",
+        "port": 443,
+        "protocol": "tcp",
+        "source": "synthetic",
+        "vulnerability": {
+          "cve": "CVE-2023-34362",
+          "id": "CVE-2023-34362",
+          "remediation": "Apply vendor security updates, review indicators of compromise, and verify the affected service.",
+          "title": "Synthetic file transfer exposure"
+        }
+      },
+      "priority": {
+        "assessed_on": "2026-01-15",
+        "contributions": {
+          "age": 4.1667,
+          "criticality": 12.0,
+          "cvss": 29.4,
+          "environment": 10.0,
+          "epss": 14.1,
+          "kev": 25.0
+        },
+        "explanation": [
+          "cvss: 29.4000 points",
+          "kev: 25.0000 points",
+          "epss: 14.1000 points",
+          "criticality: 12.0000 points",
+          "environment: 10.0000 points",
+          "age: 4.1667 points",
+          "Finding age: 75 days; age contribution saturates at 90 days.",
+          "Asset context: criticality 4/5; production; source synthetic-inventory."
+        ],
+        "model": "demo-weighted-v1",
+        "score": 94.67,
+        "weights": {
+          "age": 5.0,
+          "criticality": 15.0,
+          "cvss": 30.0,
+          "environment": 10.0,
+          "epss": 15.0,
+          "kev": 25.0
+        }
+      },
+      "severity": "critical"
+    },
+    {
+      "id": "5457f4da-f2f0-53c4-a308-ab302c72398e",
+      "intelligence": {
+        "epss": 0.97,
+        "epss_date": "2026-01-15",
+        "epss_source": "synthetic",
+        "kev": true,
+        "kev_date": "2026-01-15",
+        "kev_source": "synthetic",
+        "retrieved_on": "2026-01-15",
+        "warnings": []
+      },
+      "observation": {
+        "asset": {
+          "context_source": "synthetic-inventory",
+          "criticality": 3,
+          "environment": "staging",
+          "hostname": "build.example.test",
+          "id": "build-staging"
+        },
+        "cvss": 10.0,
+        "first_seen": "2026-01-01",
+        "last_seen": "2026-01-15",
+        "port": 8080,
+        "protocol": "tcp",
+        "source": "synthetic",
+        "vulnerability": {
+          "cve": "CVE-2021-44228",
+          "id": "CVE-2021-44228",
+          "remediation": "Upgrade the affected Log4j dependency to a vendor-supported fixed version; verify the deployed artifact.",
+          "title": "Synthetic Log4j exposure"
+        }
+      },
+      "priority": {
+        "assessed_on": "2026-01-15",
+        "contributions": {
+          "age": 0.7778,
+          "criticality": 9.0,
+          "cvss": 30.0,
+          "environment": 5.0,
+          "epss": 14.55,
+          "kev": 25.0
+        },
+        "explanation": [
+          "cvss: 30.0000 points",
+          "kev: 25.0000 points",
+          "epss: 14.5500 points",
+          "criticality: 9.0000 points",
+          "environment: 5.0000 points",
+          "age: 0.7778 points",
+          "Finding age: 14 days; age contribution saturates at 90 days.",
+          "Asset context: criticality 3/5; staging; source synthetic-inventory."
+        ],
+        "model": "demo-weighted-v1",
+        "score": 84.33,
+        "weights": {
+          "age": 5.0,
+          "criticality": 15.0,
+          "cvss": 30.0,
+          "environment": 10.0,
+          "epss": 15.0,
+          "kev": 25.0
+        }
+      },
+      "severity": "critical"
+    },
+    {
+      "id": "8cae77b0-3272-5349-92da-9d8e4c7b68cb",
+      "intelligence": {
+        "epss": 0.12,
+        "epss_date": "2026-01-15",
+        "epss_source": "synthetic",
+        "kev": false,
+        "kev_date": "2026-01-15",
+        "kev_source": "synthetic",
+        "retrieved_on": "2026-01-15",
+        "warnings": []
+      },
+      "observation": {
+        "asset": {
+          "context_source": "synthetic-inventory",
+          "criticality": 5,
+          "environment": "production",
+          "hostname": "payments.example.test",
+          "id": "payments-prod"
+        },
+        "cvss": 7.5,
+        "first_seen": "2025-12-01",
+        "last_seen": "2026-01-15",
+        "port": 8443,
+        "protocol": "tcp",
+        "source": "synthetic",
+        "vulnerability": {
+          "cve": "CVE-2022-0778",
+          "id": "CVE-2022-0778",
+          "remediation": "Update the affected TLS library and rebuild dependent services.",
+          "title": "Synthetic TLS parser exposure"
+        }
+      },
+      "priority": {
+        "assessed_on": "2026-01-15",
+        "contributions": {
+          "age": 2.5,
+          "criticality": 15.0,
+          "cvss": 22.5,
+          "environment": 10.0,
+          "epss": 1.8,
+          "kev": 0.0
+        },
+        "explanation": [
+          "cvss: 22.5000 points",
+          "kev: 0.0000 points",
+          "epss: 1.8000 points",
+          "criticality: 15.0000 points",
+          "environment: 10.0000 points",
+          "age: 2.5000 points",
+          "Finding age: 45 days; age contribution saturates at 90 days.",
+          "Asset context: criticality 5/5; production; source synthetic-inventory."
+        ],
+        "model": "demo-weighted-v1",
+        "score": 51.8,
+        "weights": {
+          "age": 5.0,
+          "criticality": 15.0,
+          "cvss": 30.0,
+          "environment": 10.0,
+          "epss": 15.0,
+          "kev": 25.0
+        }
+      },
+      "severity": "high"
+    },
+    {
+      "id": "27867efd-e7aa-55d1-ba3a-797d61ce07ca",
+      "intelligence": {
+        "epss": 0.12,
+        "epss_date": "2026-01-15",
+        "epss_source": "synthetic",
+        "kev": false,
+        "kev_date": "2026-01-15",
+        "kev_source": "synthetic",
+        "retrieved_on": "2026-01-15",
+        "warnings": []
+      },
+      "observation": {
+        "asset": {
+          "context_source": "synthetic-inventory",
+          "criticality": 1,
+          "environment": "development",
+          "hostname": "lab.example.test",
+          "id": "lab-dev"
+        },
+        "cvss": 7.5,
+        "first_seen": "2026-01-10",
+        "last_seen": "2026-01-15",
+        "port": 443,
+        "protocol": "tcp",
+        "source": "synthetic",
+        "vulnerability": {
+          "cve": "CVE-2022-0778",
+          "id": "CVE-2022-0778",
+          "remediation": "Update the affected TLS library and rebuild dependent services.",
+          "title": "Synthetic TLS parser exposure"
+        }
+      },
+      "priority": {
+        "assessed_on": "2026-01-15",
+        "contributions": {
+          "age": 0.2778,
+          "criticality": 3.0,
+          "cvss": 22.5,
+          "environment": 2.0,
+          "epss": 1.8,
+          "kev": 0.0
+        },
+        "explanation": [
+          "cvss: 22.5000 points",
+          "kev: 0.0000 points",
+          "epss: 1.8000 points",
+          "criticality: 3.0000 points",
+          "environment: 2.0000 points",
+          "age: 0.2778 points",
+          "Finding age: 5 days; age contribution saturates at 90 days.",
+          "Asset context: criticality 1/5; development; source synthetic-inventory."
+        ],
+        "model": "demo-weighted-v1",
+        "score": 29.58,
+        "weights": {
+          "age": 5.0,
+          "criticality": 15.0,
+          "cvss": 30.0,
+          "environment": 10.0,
+          "epss": 15.0,
+          "kev": 25.0
+        }
+      },
+      "severity": "high"
+    },
+    {
+      "id": "50ed5fef-4c14-5268-aef5-51a72701139d",
+      "intelligence": {
+        "epss": null,
+        "epss_date": null,
+        "epss_source": "synthetic",
+        "kev": null,
+        "kev_date": null,
+        "kev_source": "synthetic",
+        "retrieved_on": "2026-01-15",
+        "warnings": [
+          "No synthetic intelligence for this vulnerability."
+        ]
+      },
+      "observation": {
+        "asset": {
+          "context_source": "synthetic-inventory",
+          "criticality": 3,
+          "environment": "staging",
+          "hostname": "build.example.test",
+          "id": "build-staging"
+        },
+        "cvss": 4.3,
+        "first_seen": "2025-12-15",
+        "last_seen": "2026-01-15",
+        "port": 80,
+        "protocol": "tcp",
+        "source": "synthetic",
+        "vulnerability": {
+          "cve": null,
+          "id": "demo-plugin-100",
+          "remediation": "Configure the missing response header and verify application behavior.",
+          "title": "Synthetic missing security header"
+        }
+      },
+      "priority": {
+        "assessed_on": "2026-01-15",
+        "contributions": {
+          "age": 1.7222,
+          "criticality": 9.0,
+          "cvss": 12.9,
+          "environment": 5.0,
+          "epss": 0.0,
+          "kev": 0.0
+        },
+        "explanation": [
+          "cvss: 12.9000 points",
+          "kev: 0.0000 points",
+          "epss: 0.0000 points",
+          "criticality: 9.0000 points",
+          "environment: 5.0000 points",
+          "age: 1.7222 points",
+          "Finding age: 31 days; age contribution saturates at 90 days.",
+          "Asset context: criticality 3/5; staging; source synthetic-inventory.",
+          "Incomplete intelligence: unknown factors contribute zero; review manually."
+        ],
+        "model": "demo-weighted-v1",
+        "score": 28.62,
+        "weights": {
+          "age": 5.0,
+          "criticality": 15.0,
+          "cvss": 30.0,
+          "environment": 10.0,
+          "epss": 15.0,
+          "kev": 25.0
+        }
+      },
+      "severity": "medium"
+    },
+    {
+      "id": "0d3084be-f36e-57fd-9ba9-587fd55fd93e",
+      "intelligence": {
+        "epss": null,
+        "epss_date": null,
+        "epss_source": "synthetic",
+        "kev": null,
+        "kev_date": null,
+        "kev_source": "synthetic",
+        "retrieved_on": "2026-01-15",
+        "warnings": [
+          "No synthetic intelligence for this vulnerability."
+        ]
+      },
+      "observation": {
+        "asset": {
+          "context_source": "synthetic-inventory",
+          "criticality": 1,
+          "environment": "development",
+          "hostname": "lab.example.test",
+          "id": "lab-dev"
+        },
+        "cvss": null,
+        "first_seen": "2026-01-12",
+        "last_seen": "2026-01-15",
+        "port": 0,
+        "protocol": "tcp",
+        "source": "synthetic",
+        "vulnerability": {
+          "cve": null,
+          "id": "demo-plugin-200",
+          "remediation": "Manually verify the finding and obtain a severity assessment.",
+          "title": "Synthetic unscored inventory finding"
+        }
+      },
+      "priority": {
+        "assessed_on": "2026-01-15",
+        "contributions": {
+          "age": 0.1667,
+          "criticality": 3.0,
+          "cvss": 0.0,
+          "environment": 2.0,
+          "epss": 0.0,
+          "kev": 0.0
+        },
+        "explanation": [
+          "cvss: 0.0000 points",
+          "kev: 0.0000 points",
+          "epss: 0.0000 points",
+          "criticality: 3.0000 points",
+          "environment: 2.0000 points",
+          "age: 0.1667 points",
+          "Finding age: 3 days; age contribution saturates at 90 days.",
+          "Asset context: criticality 1/5; development; source synthetic-inventory.",
+          "CVSS unavailable: zero contribution, not evidence of low severity.",
+          "Incomplete intelligence: unknown factors contribute zero; review manually."
+        ],
+        "model": "demo-weighted-v1",
+        "score": 5.17,
+        "weights": {
+          "age": 5.0,
+          "criticality": 15.0,
+          "cvss": 30.0,
+          "environment": 10.0,
+          "epss": 15.0,
+          "kev": 25.0
+        }
+      },
+      "severity": "unknown"
+    }
+  ]
+}
