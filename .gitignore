@@ -231,3 +231,4 @@ asset-context.json
 .env.*
 !.env.example
 .venv*/
+!/examples/asset-context.json
