@@ -4,6 +4,23 @@ Python-based vulnerability intelligence API built as a security engineering and 
 
 **An offline-first portfolio demonstration, not a production-ready vulnerability management platform.** All included assets, findings, KEV memberships, and EPSS probabilities are synthetic. CVE identifiers illustrate the workflow; the fixtures are not current threat intelligence. The scoring formula is a demonstration model, not a validated enterprise risk-scoring standard.
 
+## Live portfolio demo
+
+**[Explore Vulnerability intelligence in the live Security Engineering Lab](https://security-engineering-lab.onrender.com/#vulnerability)**
+
+Explore seven synthetic findings, asset context, missing enrichment, and explainable remediation priorities.
+The unified app combines this engine with the other two security projects using
+pinned source snapshots. This repository remains the independent engine's source.
+
+[![Hosted Security Engineering Lab overview with vulnerability, API, and AI security results](docs/images/live-demo.jpg)](https://security-engineering-lab.onrender.com/#vulnerability)
+
+*Hosted overview captured October 26, 2026; all displayed findings are synthetic.*
+The public demo accepts no external targets or credentials. Free hosting can take
+time to wake; browser-session history is temporary. Download reports you want to keep.
+
+[Unified app source](https://github.com/Brrek/security-engineering-lab) ·
+[Production and authorized bug bounty roadmap](https://github.com/Brrek/security-engineering-lab/blob/main/docs/production-roadmap.md)
+
 ## What works
 
 - Pluggable scanner protocol, paginated synthetic provider, and optional Tenable Vulnerability Management export adapter with bounded polling and chunk downloads.
