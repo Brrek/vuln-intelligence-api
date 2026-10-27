@@ -12,7 +12,7 @@ Explore seven synthetic findings, asset context, missing enrichment, and explain
 The unified app combines this engine with the other two security projects using
 pinned source snapshots. This repository remains the independent engine's source.
 
-[![Hosted Security Engineering Lab overview with vulnerability, API, and AI security results](docs/images/live-demo.jpg)](https://security-engineering-lab.onrender.com/#vulnerability)
+[![Hosted Security Engineering Lab overview with vulnerability, API, and AI security results](docs/images/public-demo.jpg)](https://security-engineering-lab.onrender.com/#vulnerability)
 
 *Hosted overview captured October 26, 2026; all displayed findings are synthetic.*
 The public demo accepts no external targets or credentials. Free hosting can take
